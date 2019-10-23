@@ -1,0 +1,96 @@
+* { box-sizing: border-box; }
+header, nav, main, footer { display: block; }
+body { background-color: #FFFFFF;
+      color: #C39991;
+      font-family: Times, serif;
+}
+header { background-color: #FFFFFF;
+        height: 150px;
+        float:left;
+        font-family: Helvetica, Arial, sans-serif;
+}
+h1 { padding-top: 45px;
+     padding-left: 5px;
+    font-size: 3em;
+     margin-bottom: 10px;
+}
+h3 #mobile { display: none; }
+}
+h4 { background-color: #FFFFFF;
+    font-size: 1.2em;
+	padding-left:   .5em;
+	padding-bottom: .25em;
+    text-transform: uppercase;
+    border-bottom: solid 2px #231814;
+	padding-bottom: 0;
+	clear: left;
+}
+nav { text-align: right;
+     font-weight: bold;
+	 font-size: 1.5em;
+	 padding-top: 70px;
+   margin-left: 40px;
+	 width: auto;
+   display: inline-block;
+}
+nav a { text-decoration: none; }
+nav a:link { color: #FEF6C2; }
+nav a:visited { color: #D2B48C; }
+nav a:hover { color: #CC9933; }
+nav ul { list-style-type: none;
+       padding-left: 0;
+       margin-bottom: 20px;
+      }
+nav li {display: inline;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin: 80px;
+}
+main { padding: 0 0 2em 0;
+	  background-color: #FFFFFF;
+    clear: both;
+}
+main h2, main h3, main h4, main p, main div, main ul, main dl { padding-left: 1em; padding-right: 2em;
+                                                              
+
+footer { background-color: #C39991;
+       font-size: 1em;
+       color: #FFFFFF;
+	   font-style: italic;
+	   text-align: center;
+   }
+img { padding-left: 10px;
+     padding-right: 10px;
+     margin-top: 20px;
+}
+#couple { background-image: url(couple.jpg);
+          background-repeat: no-repeat;
+           background-size: 100%;
+		   height: 850px;
+        width: 100%;
+      }
+
+@media only screen and (max-width: 768px){
+  h1 {font-size: 2em;
+    text-align: center;
+    padding-left: 0;}
+  nav {margin: 0;}
+  nav a {display: block;
+        padding: 0.2em;
+        width: auto;
+        border-bottom: 1px; color: #fffff;}
+  nav li { display: block;}
+  main {padding-top: 1px;}
+  h2 {padding-top: 0.5em;
+      padding-right: 0;
+      padding-bottom: 0;
+      padding-left: 0.5em;}
+  .details {padding-left: 0; padding-right: 0;}
+  #couple {background-image: none;
+                  height: auto;}
+  #floatleft {padding-left: 0.5em;
+            padding-right: 0.5em;}
+  #mobile { display: inline; }
+  #destop { display: none; }
+
+}
